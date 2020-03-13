@@ -1,0 +1,44 @@
+:root {
+    --color-background: #222222;
+    --color-background-shadow: #4a4a4a;
+    --color-background-dark: #1a1a1a;
+    --color-text: #efefef;
+    --color-icon: #E1E1E1;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #1F232A #4a4a4a;
+}
+
+.radar .radar_controls, .blog-activity .blog-activity--empty, .post-container, .post-transition-background, .link-post .media-wrapper .link-editor {
+    background-color: var(--color-background) !important;
+}
+
+.post.post_full, .popover.tutorial, .post_brick, .popover--inbox-popover .popover-inner, .popover_gradient > .popover_inner, .popover_header, .popover--account-popover .popover .popover_menu_item_blog.popover_menu_item_blog, .white_pane, .link-post .media-wrapper .media-container .editor-wrapper .editor-slot .editor {
+    background: var(--color-background) !important;
+}
+
+.messaging-inbox .inbox-recipients .selected, .popover_menu_list .popover_menu_item:hover, .blog-list-item.blog-list-item--on-light:hover, .blog-sub-nav-details .blog-sub-nav-item.currentItem, .blog-sub-nav-details .blog-sub-nav-item.selected, .blog-sub-nav-details .blog-sub-nav-item:hover, .editor-slot {
+    background: var(--color-background-shadow) !important;
+}
+
+.post_brick .expand-post-content, .post_brick.is_photo .post_media + .expand, .messaging-inbox .inbox-recipients h2 {
+    background: var(--color-background-dark) !important;
+}
+
+.post.new_post .new_post_label, .post_full .post_header .post_info .post_info_link, .post .post_info .reblog_icon, .new_post_label i.icon_post_text, a, body, .post_controls .post_control::before, .post_full .post_header, .post_full .post_header .post_info .post_info_link, .post_full .post_notes_label .note_link_current, .popover.tutorial .content, .popover.tutorial .title, .post_brick .post_notes_label .note_link_current, .post-content-text, .post-content-text h4, .post-content-text h5, .post-content-text h6, .post .post_body, .post .post_body h4, .post .post_body h5, .post .post_body h6, .reblog-content, .reblog-content h4, .reblog-content h5, .reblog-content h6, .post_title .quote, .post_brick .expand-post-content, .messaging-inbox .inbox-recipients h2, .blog-selector-container .selected-blog, .blog-activity .blog-activity--empty, .popover_header, .blog-list-item.blog-list-item--on-light:hover .blog-list-item-icon-private, .blog-list-item.blog-list-item--on-light:hover .blog-list-item-info-name, .blog-sub-nav-details .blog-sub-nav-item.currentItem .blog-sub-nav-item-label, .blog-sub-nav-details .blog-sub-nav-item.selected .blog-sub-nav-item-label, .blog-sub-nav-details .blog-sub-nav-item:hover .blog-sub-nav-item-label, .tumblr_settings .left_column *, .post-container *, .editor-placeholder, .editor-plaintext::placeholder, .editor-richtext {
+    color: var(--color-text) !important;
+}
+.post_brick .post_tags::after {
+    background-image: linear-gradient(90deg,hsla(0,0%,100%,0) 0,#222222 80%) !important;
+}
+.post_brick .post_tags::before {
+    background-image: linear-gradient(270deg,hsla(0,0%,100%,0) 0,#222222 80%) !important;
+}
+.blog-sub-nav-details .blog-sub-nav-item.currentItem, .blog-sub-nav-details .blog-sub-nav-item.selected, .blog-sub-nav-details .blog-sub-nav-item:hover {
+    box-shadow: initial  !important;
+}
+.chrome.white {
+    background: var(--color-background-dark);
+}
